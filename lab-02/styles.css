@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    background-color: ghostwhite;
+    margin:0px;
+    width: 15vw;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+nav a {
+background-color: chocolate;
+color:aqua;
+padding: 1em;
+margin: 5px;
+text-decoration: none;
+transition: background-color 2s;
+}
+nav a:hover{
+background-color: darkmagenta;
+
+}
+header {
+    background-color: rgb(0, 0, 0);
+}
+h1 {
+    background-color: chartreuse;
+}
+header, main, section {
+    overflow: auto;
+}
+section {
+    width: 85vw;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main {
+    display: flex;
+}
